@@ -15,8 +15,7 @@ public class Palindorme{
                 System.out.println(inputs[i]+" - is a palindrome!");
             }
             else{
-                System.out.println(inputs[i]+" - is NOT a palindrome!");
-			System.out.println(palindorme.getShortestPalindorme(inputs[i])+" - is the NEW palindrome!");
+                System.out.println(inputs[i]+" - is NOT a palindrome!");			System.out.println(palindorme.getShortestPalindorme(inputs[i])+" - is the NEW palindrome!");
             }
         }
     
@@ -64,4 +63,6 @@ public class Palindorme{
 
      }
  
+ 
 }
+
