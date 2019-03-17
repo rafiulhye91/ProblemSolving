@@ -16,7 +16,7 @@ Output: 1->1->2->3->4->4
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class MergeSortedList{
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {       
         if(l1==null && l2==null){
             return null;
