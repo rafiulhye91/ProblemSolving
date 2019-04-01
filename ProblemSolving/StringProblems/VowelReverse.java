@@ -12,7 +12,7 @@ Output: "leotcede"
 
 */
 
-class Solution {
+class VowelReverse {
     public String reverseVowels(String s) {
         if(s==null){
             return s;
