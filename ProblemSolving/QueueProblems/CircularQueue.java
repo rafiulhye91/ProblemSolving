@@ -6,7 +6,7 @@ class CircularQueue {
     int mFront;
     int mRear;
     int mCount;
-    public MyCircularQueue(int k) {
+    public CircularQueue(int k) {
         mQueue = new int[k];
         mSize = k;
         mFront = 0;
