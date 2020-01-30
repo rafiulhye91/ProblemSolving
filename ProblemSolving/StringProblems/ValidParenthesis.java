@@ -10,7 +10,7 @@ Note that an empty string is also considered valid.
 
 import java.util.*;
 
-class Solution {
+class ValidParenthesis {
     char mStack[];
     int mTop;
     int mCount;
